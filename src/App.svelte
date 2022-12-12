@@ -9,7 +9,7 @@
   } from './appConfig';
   import LoadingScreen from './LoadingScreen.svelte';
   import isMobile from './util/isMobile';
-  
+
   let wWidth = '40vw';
   let rWidth = '50vw';
   let aWidth = '60vw';
@@ -56,7 +56,7 @@
 {/if}
 <div class="container">
   <div class="screen" on:drop={handleDragDrop} ondragover="return false">
-    This is my app
+    Hello Heather! This is proof that I can build things sometimes. Sometimes they work.
   </div>
 </div>
 
