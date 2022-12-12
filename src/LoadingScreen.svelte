@@ -1,6 +1,5 @@
 <script lang="ts">
   import { fade } from 'svelte/transition';
-  import Avatar from './Avatar.svelte';
 </script>
 
 <style>
@@ -100,7 +99,6 @@
   <div class="container">
     <div class="logo">
       <p class="top">Hunter</p>
-      <Avatar />
       <p class="mid">Hodnett<span class="xp">XP</span></p>
       <p class="bottom">Portfolio</p>
     </div>
